@@ -2,7 +2,7 @@
 #         Velociraptor 
 #### Time Series Device Simulator
 
-Velociraptor was created to simulate a scalable amount of devices that generate dynamic data using different interpolation methods to dynamicly create sensors in a device.  You may simply create and start/stop all or individual device(s) using REST API.  During a simulation you may change a device's profile to generate data. 
+Velociraptor was created to simulate a scalable amount of devices that generate dynamic data using different interpolation methods to dynamicly create sensors in a device.  It allows you to create and start/stop all or individual device(s) using REST API.  During a simulation you may change a device's profile to generate data. 
 
 ## Installation and launch
  - clone repository  
