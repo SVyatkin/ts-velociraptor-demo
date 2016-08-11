@@ -1,8 +1,8 @@
   <img src="images/Velociraptor.jpeg">
 #         Velociraptor 
-#### Time Series Device Simulator
+#### Time Series Device Modeling Tool
 
-Velociraptor was created to simulate a scalable amount of devices that generate dynamic data using different interpolation methods to dynamicly create sensors in a device.  It allows you to create and start/stop all or individual device(s) using REST API.  During a simulation you may change a device's profile to generate data. 
+Velociraptor was created to model a scalable amount of devices that generate dynamic data using different interpolation methods to dynamicly create sensors in a device.  It allows you to create and start/stop all or individual device(s) using REST API.  During a modeling you may change a device's profile to generate data. 
 
 ## Installation and launch
  - clone repository  
@@ -123,7 +123,7 @@ http://localhost:8080/config
   
   <img src="images/Vibration300Points.png">
   
-  The same simulator series with 300 data points generated in the Time Series
+  The same modeling series with 300 data points generated in the Time Series
   
   
 ##### Post - generate new 100 devices with 3 sensors: Vibration, RotorSpead, Temperature
@@ -291,13 +291,13 @@ http://localhost:8080/info
 }
   ```
 
-##### Start/Stop device simulator by device Id
+##### Start/Stop device modeling by device Id
   ```
 http://localhost:8080/start/SIM0_0
 http://localhost:8080/stop/SIM0_1 
   ```
   
-##### Start/Stop all simulator devices
+##### Start/Stop all modeling devices
   ```
 http://localhost:8080/startall
 http://localhost:8080/stopall  
