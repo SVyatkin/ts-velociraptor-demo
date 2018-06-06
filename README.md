@@ -305,7 +305,7 @@ http://localhost:8080/stopall
   
 #### Developer notes
 
-  <img src="images/VelociraptorsScale.jpg">
+<img src="images/VelociraptorsScale.jpg">
 
 - Velociraptor is a robust and fast solution to feed Time Series with generated data.  Please keep your eyes open when you scale the  Velociraptor application servers. 
 - This version is a limited demo that does not allow you to send over 100 messages to the Time Series.
