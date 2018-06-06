@@ -1,5 +1,7 @@
   <img src="images/Velociraptor.jpeg">
-#         Velociraptor 
+  
+#         Velociraptor
+
 #### Time Series Device Modeling Tool
 
 Velociraptor was created to model a scalable amount of devices that generate dynamic data using different interpolation methods to dynamicly create sensors in a device.  It allows you to create and start/stop all or individual device(s) using REST API.  During a modeling you may change a device's profile to generate data. 
