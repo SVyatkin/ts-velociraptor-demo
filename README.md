@@ -23,6 +23,7 @@ java \
   ``` 
   
   Your java command lines should look like this
+  
    ```    
 java \
        -Dsim.timeseries.zoneid=d1d23456-6677-1234-1234-e85f76c83723 \
@@ -34,6 +35,7 @@ java \
   ``` 
     
 ##### Simple test with default sensor "temp" 
+
   ```   
 http://localhost:8080/test
 
